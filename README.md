@@ -2,6 +2,7 @@
 NVD_OTX dataset will be used to determine to what extent the type of attack vector, specifically whether local or network based influence the EPSS score.
 
 Cleaning Dataset
+I use only entries that include CVSS v3 and starts from 2016, because CVSS v2 was only used through 2015 and standards have changed since that time.
 Removed years 1999 - 2015 from the dataset
 for i in df_d.columns:
 
